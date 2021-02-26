@@ -122,8 +122,8 @@ body {
 /*Герой*/
 
 .hero {
-  width: 1600px;
-  height: 600px;
+  max-width: 1600px;
+  max-height: 600px;
   text-align: center;
   padding-top: 200px;
 }
@@ -187,7 +187,6 @@ body {
   margin-left: calc(-1 * var(--value-margin));
 
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .section-about > .about {
@@ -210,6 +209,7 @@ body {
 
 .section-title {
   color: var(--text-black);
+  padding-top: 94px;
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -225,9 +225,7 @@ body {
 
 .section .section-subtitle .footer-subtitle {
   color: var(--text-dark-gray);
-  margin-top: 0;
   margin-bottom: 10px;
-
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -250,7 +248,6 @@ body {
 }
 
 .section-team {
-  padding-top: 94px;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
@@ -282,7 +279,7 @@ body {
 .profession {
   color: var(--text-gray);
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 
   font-weight: normal;
   font-size: 16px;
